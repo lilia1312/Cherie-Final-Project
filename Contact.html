@@ -1,0 +1,85 @@
+<!---
+
+	Name: Treasure Onah
+    Date: 2024-04-10
+    Description: Contact page for project deployment
+
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="styles.css" >
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100..800&display=swap" rel="stylesheet">
+	<script src="script.js"></script>
+</head>
+	<body>
+		<header>
+			<a href="index.html">
+    			<img src="images/ch.png" alt="Cherie Logo Image">
+			</a>
+			<nav id="firstnav" aria-label ="header Navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="collections.html">Collections</a></li>
+					<li><a href="index.html#info">Info</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="cart.html">Cart</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form method="post" id="client_form" action="post" data-netlify="true"> 
+				<fieldset>
+						<h1><b>Let's Talk</b></h1>
+					<div class="formfield">
+						<label for=fname class="client">First Name </label>
+						<input type="text" id="fname" name="fname"  maxlength="15" value="" autofocus="autofocus">
+						<div class="client_error error" id="fname_error">* Please enter your first name</div>
+					</div>
+					<div class="formfield">
+						<label for="lname" class="client">Last Name</label>
+						<input type="text" id = "lname" name="lname" maxlength="20">
+						<div class="client_error error" id="lname_error">* Please enter your last name.</div>
+					</div>
+					<div class="formfield">
+						<label for="phone" class="client">Phone No</label>
+						<input type="tel" id ="phone" name="phone">
+						<div class="client_error error" id="num_error">* Required.</div>
+						
+					</div>
+					<div class="formfield">
+						<label for="email" class="client">Email</label>
+						<input type="email" id = "email" name="email">
+					</div>
+					<div class="formfield">
+						<label for="comment" class="client">Notes</label>
+						<textarea id="comment" name="comment" rows="8" cols="20"></textarea>
+					</div>
+					</fieldset>
+
+				<fieldset>
+					<button type="reset" >Clear</button>
+					<button type="submit" >Send</button>
+				</fieldset>
+			</form>
+				
+		</main>
+		<footer id="confooter">
+			<img src="images/ch.png" alt="Cherie">
+			<nav id ="cfooter"  aria-label="Footer Navigation">
+				<ul>
+					<li><a href = "index.html">Home </a></li>
+					<li><a href = "https://www.pinterest.ca/cheriee_ca/">Pinterest</a></li>
+					<li><a href = "#">Instagram</a></li>
+				</ul>
+			</nav>
+			<p>2024 Cherie Jewelry. All rights reserved</p>
+		</footer>
+	</body>
+</html>

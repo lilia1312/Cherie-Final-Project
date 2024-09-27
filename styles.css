@@ -1,0 +1,395 @@
+html, body, section, p, header, nav, footer, div, article, aside, ol, li, h1, h6 {
+	margin: 0;
+	padding: 0;
+  	box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  	font-family: Anek Gujarati, sans-serif;
+  	background-color: #FFF;
+  	color: #333;
+  	line-height: 1.6;
+  	overflow-x: hidden;
+}
+
+/* Container styles */
+.container {
+  	margin: 0 auto;
+  	padding: 20px;
+}
+
+/* Header styles */
+header {
+	display: flex;
+	align-items: center;
+  	background-color: #FFF;
+  	color: #000000;
+  	padding: 0px;
+  	padding-left: 20px;
+  	border-bottom: 1.5px solid #000000;
+}
+
+header h1 {
+	padding: 0px;
+  	font-size: 30px;
+  	margin-bottom: 0px;
+}
+
+header p {
+  	font-size: 16px;
+}
+
+header img {
+	margin-right: 20px;
+	width: 30%;
+}
+
+#mainimg {
+	display: flex;
+}
+
+#mainimg img {
+	width: 50%; 
+  	height: auto; 
+  	margin-right: 10px; 
+}
+
+#firstnav {
+	display: flex;
+	margin-left: 300px;
+}
+#firstnav{
+	text-align: right;
+}
+
+#firstnav ul li{
+	display: inline-block;
+}
+
+#subimg {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+#subimg img{
+	width: 70%;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#subimg h1{
+	font-size: 25px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#subimg p{
+	margin-top: 0px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#display {
+	position: absolute;
+	color: #fff;
+	padding-top: 400px;
+}
+
+/* Navigation styles */
+nav {
+  	margin-top: 20px;
+}
+
+nav ul {
+  	list-style-type: none;
+}
+
+nav ul li {
+  	display: inline-block;
+  	margin-right: 10px;
+}
+
+nav ul li a {
+  	text-decoration: none;
+  	color: #000000;
+  	padding: 5px 10px;
+  	border-radius: 0px;
+  	transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  	background-color:#F1E9D8;
+  	transition: 0.2s;
+  	text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  	padding: 0px 0;
+}
+
+#goldenmirage nav ul li a {
+	text-align: left;
+	font-size: 30px;
+	padding: 20px ;
+	text-decoration: underline;
+}
+
+#info{
+	background-color:#F1E9D8;
+	padding: 100px;
+	text-align: center;
+}
+
+#info h1{
+	font-size: 30px;
+	text-align: center;
+}
+
+#info p{
+	padding: 0px 0px;
+	font-size: 19px;
+	text-align: center;
+	
+}
+
+/* Footer styles */
+footer {
+  	background-color: #F1E9D8;
+  	color: #000000;
+  	text-align: center;
+  	padding: 10px 0;
+}
+
+#footer{
+	justify-content: center;
+}
+
+#footerimg img{
+	width: 100%;
+}
+
+footer p {
+	text-align: left;
+	padding: 10px;
+  	font-size: 12px;
+}
+
+footer img{
+	padding-left: 10px;
+	width: 100px;
+	margin-right: 1500px;
+}
+
+
+#confooter {
+	border-top: 1.5px solid #000;
+	background-color: #FFF;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .container {
+        display: block; /* Change display to block for smaller screens */
+        padding: 10px; /* Decrease padding for smaller screens */
+    }
+
+    header img {
+        width: 50%; /* Adjust logo size for smaller screens */
+    }
+
+    #firstnav {
+        margin-left: 0; /* Remove left margin for smaller screens */
+    }
+
+    header nav ul  {
+        display: flex;
+        font-size: 14px;
+        padding-bottom: 20px; /* Adjust spacing between nav items */
+    }
+
+    #subimg{
+    	margin-left: 40px;
+    }
+
+    #subimg h1 {
+        font-size: 16px; /* Decrease heading size for smaller screens */
+        margin-top: -150px;
+    }
+
+    #subimg p {
+        font-size: 10px; /* Decrease heading size for smaller screens */
+        margin-top:10px;
+    }
+
+    #subimg img {
+        width: 100%; /* Adjust image width for smaller screens */
+    }
+
+    #goldenmirage nav ul li a{
+    	font-size: 17px;
+    
+    }
+
+    footer img {
+        margin-right: 10px; /* Adjust margin for footer image */
+    }
+
+    footer p {
+        text-align: center; /* Center-align footer text for smaller screens */
+    }
+}
+
+/* contact styles*/
+fieldset
+{
+	margin-bottom: 30px;
+	padding: 5px;
+	border: none;
+}
+
+fieldset:last-child
+{
+	margin-bottom: 0px;
+}
+
+hr
+{
+	margin-bottom: 15px;
+}
+
+legend
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 14pt;
+}
+
+h3
+{
+	margin: 0px 0px 10px 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+label
+{
+	font-size: 12pt;
+}
+
+.client
+{
+	width: 130px;
+	display: inline-block;
+	text-align: right;
+}
+
+.client_error
+{
+	margin-left: 130px;
+}
+
+#client_form{
+	background-color:#F1E9D8;
+	position: relative;
+}
+
+#client_form h1{
+	font-size: 30px;
+}
+
+#comment{
+	max-width: 500px;
+}
+
+input[type=text], button[type=submit], button[type=reset]
+{
+	padding: 5px 5px;
+}
+
+textarea{
+	width: 90%;
+}
+
+.formfield
+{
+	margin: 10px 0px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+
+/*Cart page styles*/
+
+#carts{
+	padding: 20px;
+}
+
+#item1{
+	padding-bottom: 20px;
+}
+
+#item1 h2{
+	font-size: 20px;
+}
+
+#item1 img{
+	width: 50%;
+	border-radius: 2px;
+}
+
+#item2{
+	padding-bottom: 20px;
+}
+
+#item2 h2{
+	font-size: 20px;
+}
+
+#item2 img{
+	width: 50%;
+	border-radius: 3px;
+
+}
+
+/*collections page*/
+#coversplash img{
+	width: 100%;
+	padding: 0px;
+}
+
+#Goldenmirage {
+    width: 100%;
+    position: relative;
+}
+#Goldenmirage h1{
+	padding: 20px;
+	margin-left: 40px;
+}
+
+#gallery {
+    display: flex;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+#gallery img {
+    width: 30%;
+    margin-right: 35px;
+    border-radius: 2px;
+    padding-bottom: 30px;
+}
+
+
